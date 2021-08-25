@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box !important;
+}
+body {
+    background-color: rgb(233, 221, 221) !important;
+}
+.header-wrapp {
+    background-color: rgb(245, 10, 10)!important;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header {
+    min-height: 15px !important;
+    max-height: 18px !important;
+    width: fit-content !important;
+    margin-top: 60px !important;
+}
+.header-font {
+    min-height: 40px !important;
+    width: fit-content !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+ 
+}
+.page-sub-header {
+    background-color: rgba(226, 12, 12, 0.986);
+    border-top-color: rgb(31, 11, 2);
+    border-top-style: double;
+    border-top-width: 11px;
+    border-bottom-color: rgba(169, 230, 230, 0.089);
+    border-bottom-style: ridge;
+    border-bottom-width: 8px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+}
+.sub-header-font {
+    color:whitesmoke;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 16px;
+    font-weight: 300;
+}
+.angle {
+    color: rgba(196, 252, 249, 0.493);
+    position: relative;
+    top: 5px;
+}
+#center {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-body {
+    background-color: white !important;
+    display: flex;
+    margin: 30px !important;
+    position: relative !important;
+    right: 30px !important;
+}
+.card-header {
+    background-color: rgb(16, 104, 219) !important;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    line-height: .2em !important;
+}
+h3 {
+    display: flex;
+    height: auto;
+}
+.card-content {
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(75, 10, 32, 0.089) !important;
+    border-radius: 2px;
+}
+.event {
+    padding: 5px !important;
+}
+.top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.gray {
+    background-color: rgba(241, 239, 239, 0.603) !important;
+}
+.white {
+    background-color: white !important;
+}
+a {
+    color: rgb(107, 106, 106) !important;
+}
+
